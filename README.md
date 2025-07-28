@@ -80,3 +80,34 @@ Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 
+📊 Example Output
+Label: ✅ Truth
+
+Probability: 92.7%
+
+Clean face overlay with no obstructive text
+
+📂 Folder Structure
+📁 root/
+│
+├── engineered_features_top8.csv
+├── train_svm.ipynb
+├── train_rf.ipynb
+├── train_knn.ipynb
+├── demo_predict.ipynb
+├── svm.pkl
+├── randomforest.pkl
+├── knn.pkl
+├── scaler.pkl
+└── README.md
+
+🤝 Acknowledgement
+Thanks to the original dataset creators and contributors:
+Kaggle Dataset by Devvrat Mathur : https://www.kaggle.com/datasets/devvratmathur/micro-expression-dataset-for-lie-detection 
+achelousace GitHub Repo : https://github.com/achelousace/Micro-Facial-Expression-Detection
+
+📜 License
+This project is for educational and research purposes. Check the dataset repositories for their respective licenses.
+
+
+
